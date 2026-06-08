@@ -12,7 +12,7 @@ def truncatable_right(x):
     word = str(x)
     if len(word) == 1:
         return True
-    return truncatable_right(x % 10)
+    return truncatable_right(x // 10)
 
 def truncatable(x):
     word = str(x)

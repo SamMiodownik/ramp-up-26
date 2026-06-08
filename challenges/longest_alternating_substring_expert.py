@@ -15,7 +15,8 @@ def isEven(x):
 
 def main():
     print(longest_substring("225424272163254474441338664823"), "\tShould be '272163254'")
-    print(longest_substring("594127169973391692147228678476"), "\tShould be '16921472")
-    print(longest_substring("721449827599186159274227324466"), "\tShould be '7214")
+    print(longest_substring("594127169973391692147228678476"), "\tShould be '16921472'")
+    print(longest_substring("721449827599186159274227324466"), "\tShould be '7214'")
+    print(longest_substring("222222222222221212121"), "\tShould be 21212121'")
 
 if __name__ == '__main__':  main()
